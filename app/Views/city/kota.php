@@ -11,41 +11,23 @@
 
 <!--Tambah Provinsi-->
 <a  href="<?=site_url('kota/addkota')?>" type="button" class="btn btn-primary mb-3 ml-3">
-            <i class="fas fa-plus"></i> Tambah Provinsi
+            <i class="fas fa-plus"></i> Tambah Kota
 </a>
 
 <!--Flash Message-->
-<? if(session('sucess')): ?>
+<?php if(session('sucess')): ?>
 <div class="alert alert-success" role="alert">
    <i class="far fa-check-circle"> <?=session()->getFlashdata('sucess')?></i>
    <button class="close" data-dismiss="alert">X</button>
  </div>  
-<? endif?>
+<?php endif?>
 <!---->
 
-<div class="row p-2">
-
-<div class="col-3">
-  
-       <h5> Cari Berdasarkan Provinsi</h5>
-     
-       </div>
-      
-       <div class="col-3">
-       <select class="form-control d-inline" id="provinsi">
-
-       <option value="">---Pilih Nama Provinsi-----</option>
-          <?php foreach ($provinsi as $prov) : ?>
-          <option value="<?=$prov->id_provinsi?>"><?=$prov->nama_provinsi?></option>
-          <?php endforeach ?>
-
-        </select>
-       </div>
-</div>
-
+<
+          
 <!--tabel tampil data-->
 <div class="table-responsive p-2">
-    <table class="table table-striped table-hover">
+    <table class="table table-striped table-hover" id="tabelKota">
         <thead>
             <tr class="table-dark">
                 <td>Kota</td>
@@ -67,10 +49,10 @@
            <a href="/kota/editkota/<?= $value->id_kota?>" class="btn btn-primary"><i class="fas fa-edit"></i></a>
 
             <!--delete-->
-            <form action="/province/<?= $value->id_provinsi?>" method="post"  class="d-inline">
+            <form action="/kota/<?= $value->id_kota?>" method="post"  class="d-inline">
             <? csrf_field();?>
             <input type="hidden" name="_method" value="DELETE">
-              <button type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+              <button type="submit" class="btn btn-danger" onclick="return confirm('Yakin ingin menghapus permanen?')"><i class="fas fa-trash-alt"></i></button>
             </form>
 
           </td>           
@@ -78,7 +60,7 @@
         <?php endforeach ?>  
     </table>
     <!----> 
-
+  
     <!--footer-->
     <?= view('layout/footer'); ?>
      

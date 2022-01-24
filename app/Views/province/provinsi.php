@@ -15,17 +15,17 @@
 </a>
 
 <!--Flash Message-->
-<? if(session('sucess')): ?>
+<?php if(session('sucess')): ?>
 <div class="alert alert-success" role="alert">
    <i class="far fa-check-circle"> <?=session()->getFlashdata('sucess')?></i>
    <button class="close" data-dismiss="alert">X</button>
  </div>  
-<? endif?>
+<?php endif?>
 <!---->
 
 <!--tabel tampil data-->
 <div class="table-responsive p-2">
-    <table class="table table-striped table-hover">
+    <table class="table table-striped table-hover" id="prov">
         <thead>
             <tr class="table-dark">
                 <td>Provinsi</td>

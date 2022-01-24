@@ -65,6 +65,10 @@ $routes->post('/kota/addkota/create', 'KotaController::create');
 $routes->get('/kota/editkota/(:segment)', 'KotaController::edit/$1');
 $routes->post('kota/editkota/update/(:segment)', 'KotaController::update/$1');
 
+//deletekota
+$routes->delete('/kota/(:num)', 'KotaController::delete/$1');
+
+
 
 /*
  * --------------------------------------------------------------------
