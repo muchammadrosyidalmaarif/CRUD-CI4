@@ -5,7 +5,7 @@
 
 <div class="row">
        <div class="col-3">
-           <h1>Data Siswa</h1>
+           <h1>Kota dan Provinsi di Indonesia</h1>
        </div>
 </div>
 
