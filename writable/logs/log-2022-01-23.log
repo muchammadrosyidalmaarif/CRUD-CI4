@@ -1,0 +1,288 @@
+CRITICAL - 2022-01-23 00:01:55 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('province/formed...', Array, true)
+#3 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(49): view('province/formed...', Array)
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->edit('2')
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-01-23 00:14:31 --> Unknown column 'provinsis.id_provinsi' in 'on clause'
+CRITICAL - 2022-01-23 00:14:31 --> Unknown column 'provinsis.id_provinsi' in 'on clause'
+#0 C:\xampp\htdocs\tes-jmc\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tes-jmc\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tes-jmc\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tes-jmc\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tes-jmc\app\Models\ModelKota.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(17): App\Models\ModelKota->getAll()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#8 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-23 00:38:37 --> Undefined variable: prov
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\addkota.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/addkota', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(26): view('city/addkota', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->new()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 00:40:42 --> Undefined variable: prov
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\addkota.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/addkota', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(26): view('city/addkota', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->new()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 00:40:43 --> Undefined variable: prov
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\addkota.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/addkota', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(26): view('city/addkota', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->new()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 00:40:44 --> Undefined variable: prov
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\addkota.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/addkota', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(26): view('city/addkota', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->new()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 00:41:26 --> Undefined variable: value
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\addkota.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/addkota', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(26): view('city/addkota', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->new()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 00:41:27 --> Undefined variable: value
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\addkota.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/addkota', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(26): view('city/addkota', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->new()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 00:42:06 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/addkota', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(26): view('city/addkota', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->new()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-23 00:42:22 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/addkota', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(26): view('city/addkota', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->new()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-23 01:07:53 --> Trying to get property 'id_provinsi' of non-object
+#0 C:\xampp\htdocs\tes-jmc\app\Views\province\formeditprov.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('province/formed...', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(50): view('province/formed...', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->edit('1')
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 01:08:30 --> Undefined variable: tampildata
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\formeditkota.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/formeditko...', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(49): view('city/formeditko...', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->edit('1')
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 01:09:52 --> Trying to get property 'id_provinsi' of non-object
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\formeditkota.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/formeditko...', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(49): view('city/formeditko...', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->edit('1')
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 01:13:14 --> Undefined variable: kotaa
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\formeditkota.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/formeditko...', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(52): view('city/formeditko...', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->edit('1')
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 03:43:12 --> Undefined variable: tampildata
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\kota.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/kota', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(19): view('city/kota', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 04:13:38 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, null given, called in C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php on line 18
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(18): CodeIgniter\BaseModel->findAll(NULL)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-23 04:36:06 --> Undefined index: search
+#0 C:\xampp\htdocs\tes-jmc\app\Models\ModelKota.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(17): App\Models\ModelKota->getAll(NULL)
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 04:36:26 --> Undefined variable: kondisi_search
+#0 C:\xampp\htdocs\tes-jmc\app\Models\ModelKota.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(17): App\Models\ModelKota->getAll(NULL)
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 04:39:47 --> Undefined index: search
+#0 C:\xampp\htdocs\tes-jmc\app\Models\ModelKota.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(17): App\Models\ModelKota->getAll(NULL)
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 04:40:05 --> Array to string conversion
+#0 C:\xampp\htdocs\tes-jmc\app\Models\ModelKota.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(17): App\Models\ModelKota->getAll(NULL)
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 04:40:27 --> Array to string conversion
+#0 C:\xampp\htdocs\tes-jmc\app\Models\ModelKota.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(17): App\Models\ModelKota->getAll(NULL)
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 04:41:25 --> Undefined variable: provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\kota.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/kota', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(17): view('city/kota', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-23 04:41:26 --> Undefined variable: provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Views\city\kota.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('city/kota', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(17): view('city/kota', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-23 17:46:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-23 17:46:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\tes-jmc\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tes-jmc\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tes-jmc\app\Models\ModelKota.php(29): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(16): App\Models\ModelKota->getAll()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-23 19:43:50 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-23 19:44:00 --> Undefined property: App\Controllers\KotaController::$input
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-23 19:47:26 --> Too few arguments to function App\Models\ModelKota::getAll(), 0 passed in C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php on line 16 and exactly 1 expected
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\KotaController.php(16): App\Models\ModelKota->getAll()
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\KotaController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KotaController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

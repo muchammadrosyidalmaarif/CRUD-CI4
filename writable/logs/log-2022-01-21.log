@@ -1,0 +1,609 @@
+ERROR - 2022-01-21 01:23:09 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-21 01:23:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tes-jmc\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tes-jmc\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\tes-jmc\app\Config\Routes.php(32): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(781): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-01-21 01:24:23 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-21 01:24:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tes-jmc\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tes-jmc\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\tes-jmc\app\Config\Routes.php(32): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(781): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-01-21 01:24:58 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-21 01:24:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tes-jmc\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tes-jmc\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\tes-jmc\app\Config\Routes.php(32): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(781): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-01-21 01:24:59 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-21 01:24:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tes-jmc\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tes-jmc\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\tes-jmc\app\Config\Routes.php(32): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(781): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-01-21 01:25:49 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-21 01:25:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tes-jmc\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tes-jmc\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\tes-jmc\app\Config\Routes.php(32): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(781): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-01-21 01:26:08 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-21 01:26:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tes-jmc\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tes-jmc\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\tes-jmc\app\Config\Routes.php(32): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(781): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-01-21 01:26:25 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-21 01:26:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\tes-jmc\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tes-jmc\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\tes-jmc\app\Config\Routes.php(32): CodeIgniter\Database\Config::forge()
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(781): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 02:56:39 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(18): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:00:01 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:00:08 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:01:33 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:01:34 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:01:51 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:01:51 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:03:24 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:03:25 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:03:25 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:03:26 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:03:26 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:03:26 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:03:26 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:03:46 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:03:46 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:05:25 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:05:25 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:05:26 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:05:26 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:05:26 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:05:26 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(15): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:15:55 --> Undefined property: App\Controllers\ProvinsiController::$provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:16:23 --> Undefined property: App\Controllers\ProvinsiController::$provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:20:44 --> Undefined property: App\Controllers\ProvinsiController::$provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:20:46 --> Undefined property: App\Controllers\ProvinsiController::$provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:21:41 --> Undefined property: App\Controllers\ProvinsiController::$provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:21:42 --> Undefined property: App\Controllers\ProvinsiController::$provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:22:41 --> Undefined property: App\Controllers\ProvinsiController::$provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:22:42 --> Undefined property: App\Controllers\ProvinsiController::$provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:26:13 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-21 03:26:33 --> Undefined property: App\Controllers\ProvinsiController::$provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:30:30 --> Invalid file: App\Views\test.php
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\test....')
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('App\\Views\\test', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(20): view('App\\Views\\test', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:31:47 --> Undefined property: App\Controllers\ProvinsiController::$data
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:32:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:32:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:32:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:32:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:32:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:32:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:32:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:33:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:33:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:37:24 --> Undefined property: App\Controllers\ProvinsiController::$provinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:47:43 --> Undefined property: App\Controllers\ProvinsiController::$ModelProvinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 03:52:02 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(26): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:52:09 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(26): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 03:53:08 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#2 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(26): view('provinsi', Array)
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#4 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-21 20:32:23 --> Call to undefined method App\Models\ModelProvinsi::getdata
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(17): CodeIgniter\Model->__call('getdata', Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 20:37:35 --> Call to undefined method App\Models\ModelProvinsi::getdata
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(17): CodeIgniter\Model->__call('getdata', Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 20:41:14 --> Undefined variable: pprovinsi
+#0 C:\xampp\htdocs\tes-jmc\app\Views\provinsi.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(20): view('provinsi', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-21 20:41:27 --> Undefined variable: data
+#0 C:\xampp\htdocs\tes-jmc\app\Views\provinsi.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tes-jmc\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tes-jmc\system\Common.php(1089): CodeIgniter\View\View->render('provinsi', Array, true)
+#4 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(20): view('provinsi', Array)
+#5 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->index()
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-21 22:13:30 --> Undefined property: App\Controllers\ProvinsiController::$model
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->create()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 22:14:30 --> Object of class App\Models\ModelProvinsi could not be converted to string
+#0 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->create()
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-21 22:14:49 --> Object of class App\Models\ModelProvinsi could not be converted to string
+#0 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->create()
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-21 22:16:40 --> min_lenght is not a valid rule.
+#0 C:\xampp\htdocs\tes-jmc\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min_lenght')
+#1 C:\xampp\htdocs\tes-jmc\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nama_provinsi', 'nama_provinsi', 'Kalimantan Sela...', Array, Array)
+#2 C:\xampp\htdocs\tes-jmc\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\tes-jmc\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\tes-jmc\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(27): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->create()
+#7 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#8 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-21 22:18:18 --> Undefined property: App\Controllers\ProvinsiController::$model
+#0 C:\xampp\htdocs\tes-jmc\app\Controllers\ProvinsiController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->create()
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#3 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-21 22:18:44 --> Object of class App\Models\ModelProvinsi could not be converted to string
+#0 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(825): App\Controllers\ProvinsiController->create()
+#1 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinsiController))
+#2 C:\xampp\htdocs\tes-jmc\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tes-jmc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tes-jmc\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
