@@ -49,7 +49,7 @@
            <a href="/kota/editkota/<?= $value->id_kota?>" class="btn btn-primary"><i class="fas fa-edit"></i></a>
 
             <!--delete-->
-            <form action="/kota/<?= $value->id_kota?>" method="post" class="d-inline">
+            <form action="/kota/<?= $value->id_kota?>" method="post"  class="d-inline">
             <? csrf_field();?>
             <input type="hidden" name="_method" value="DELETE">
               <button type="submit" class="btn btn-danger" onclick="return confirm('Yakin ingin menghapus permanen?')"><i class="fas fa-trash-alt"></i></button>
