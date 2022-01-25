@@ -67,6 +67,7 @@ $routes->post('kota/editkota/update/(:segment)', 'KotaController::update/$1');
 
 //deletekota
 $routes->delete('/kota/(:num)', 'KotaController::delete/$1');
+$routes->get('/kota/filter', 'KotaController::filterbyprov');
 
 
 

@@ -2,7 +2,22 @@
 <?php echo view('layout/header'); ?>
 <?= $this->renderSection('title')?>
 
+<div class="row">
+       <div class="col-3">
+           <h1>filter</h1>
+       </div>
 
+       <div class="col-3">
+       <select name="id_provinsi" id="id_provinsi" class="form-control" required>
+
+        <option value="" hidden></option>
+        <?php foreach ($provinsi as $prov) : ?>
+        <option value="<?=$prov->id_provinsi?>"><?=$prov->nama_provinsi?></option>
+        <?php endforeach ?>
+
+</select>
+       </div>
+</div>
 <div class="row">
        <div class="col-3">
            <h1>Kota dan Provinsi di Indonesia</h1>
@@ -11,8 +26,7 @@
 
 <!--Tambah Provinsi-->
 <a  href="<?=site_url('kota/addkota')?>" type="button" class="btn btn-primary mb-3 ml-3">
-            <i class="fas fa-plus"></i> Tambah Kota
-</a>
+            <i class="fas fa-plus"></i> Tambah Kota </a>
 
 <!--Flash Message-->
 <?php if(session('sucess')): ?>
@@ -23,7 +37,7 @@
 <?php endif?>
 <!---->
 
-<
+
           
 <!--tabel tampil data-->
 <div class="table-responsive p-2">
@@ -31,36 +45,45 @@
         <thead>
             <tr class="table-dark">
                 <td>Kota</td>
-                <td>Provinsi</td>
                 <td>Jumlah Penduduk</td>
-                <td>Aksi</td> 
+                
             </tr> 
         </thead>  
-        
-        <!--Tampil Data-->
-        <?php foreach ($tampilkota as $key => $value) : ?>
-        <tr>
-            <td><?=$value->nama_kota?></td>
-            <td><?=$value->nama_provinsi?></td>
-            <td><?=$value->jml_penduduk?></td>
-            <td>
-            
-              <!--edit-->
-           <a href="/kota/editkota/<?= $value->id_kota?>" class="btn btn-primary"><i class="fas fa-edit"></i></a>
-
-            <!--delete-->
-            <form action="/kota/<?= $value->id_kota?>" method="post"  class="d-inline">
-            <? csrf_field();?>
-            <input type="hidden" name="_method" value="DELETE">
-              <button type="submit" class="btn btn-danger" onclick="return confirm('Yakin ingin menghapus permanen?')"><i class="fas fa-trash-alt"></i></button>
-            </form>
-
-          </td>           
-        </tr>
-        <?php endforeach ?>  
+      <tbody></tbody>
     </table>
     <!----> 
-  
+
+
+    <!--javascript filter-->
+    <script src="<?= base_url('template/vendor/jquery/jquery.min.js')?>"></script>
+    <script>
+    $(function () {
+      $('#tabelKota').DataTable();
+       
+        const getData = (id_provinsi) => {
+            $('#tabelKota').DataTable({
+                processing: false,
+                serverSide: false,
+                destroy:true,
+                ajax: {
+                url: "<?= base_url('/kota/filter')?>"+'?id_provinsi='+id_provinsi,
+                type: "GET",
+                credentials: "same-origin"
+                },
+                columns: [
+                   
+                    { data: "nama_kota" },
+                    { data: "jml_penduduk"},
+                ]
+            });
+        }
+        getData('');
+        $('#id_provinsi').on('change', function(e){
+          let id_provinsi= $(this).val();
+          getData(id_provinsi);
+        })
+    });
+</script>
     <!--footer-->
     <?= view('layout/footer'); ?>
      

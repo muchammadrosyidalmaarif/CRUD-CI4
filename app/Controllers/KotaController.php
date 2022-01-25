@@ -70,4 +70,15 @@ class KotaController extends BaseController
        
         return redirect()->to('kota')->with('sucess', 'Data Berhasil Diupdate!');
     }
+
+    public function filterbyprov()
+    {
+        $id_prov=$this->request->getVar('id_provinsi');
+        $kotaa = new ModelKota();
+        $rest = [
+            'data' => $kotaa->like('id_provinsi', $id_prov, 'both')->findAll(),
+        
+        ];
+        echo json_encode($rest);
+    }
 }
